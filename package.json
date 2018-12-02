@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JBader112/The_Webapp#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mssql": "^4.3.0"
   }
 }

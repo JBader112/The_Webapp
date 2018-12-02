@@ -1,10 +1,11 @@
 var express = require('express');
 var app = express();
 
+/*
 app.get('/', function (req, res) {
    res.send('Hello World from GCE!'); 
 });
-
+*/
 
 app.get('/', function (req, res) {
    
