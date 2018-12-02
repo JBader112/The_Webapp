@@ -37,6 +37,7 @@ app.get('/', function (req, res) {
             
         });
     });
+//    sql.close();
 });
 
 var server = app.listen(3000, function () {
