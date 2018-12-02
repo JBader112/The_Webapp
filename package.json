@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JBader112/The_Webapp/issues"
   },
-  "homepage": "https://github.com/JBader112/The_Webapp#readme"
+  "homepage": "https://github.com/JBader112/The_Webapp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
