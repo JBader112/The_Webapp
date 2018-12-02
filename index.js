@@ -13,8 +13,8 @@ app.get('/', function (req, res) {
 
     // config for your database
     var config = {
-        user: 'Whemory',
-        password: 'Third1993$',
+        user: 'Admin',
+        password: 'brains1!',
         server: '35.225.192.81', 
         database: 'The_Webapp' 
     };
