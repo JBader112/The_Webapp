@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "firstName": "Justin",
+    "lastName": "Bader",
+    "lastContacted": "2018-12-12T08:15:30.000Z",
+    "note": "nice"
+  },
+
+  {
+    "id": 2,
+    "firstName": "William",
+    "lastName": "Emory",
+    "lastContacted": "2016-01-12T08:15:30.000Z",
+    "note": "Said he'd brb"
+  }
+]
+

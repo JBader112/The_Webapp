@@ -1,0 +1,32 @@
+﻿<template>
+
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    Customers
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>lastContacted</th>
+                <th>note</th>
+            </tr>
+            <tr repeat.for="customer of customers">
+                <td>${customer.firstName}</td>
+                <td>${customer.lastName}</td>
+                <td>${customer.lastContacted}</td>
+                <td>${customer.note}</td>
+            </tr>
+        </table>
+    </div>
+
+    <compose view-model="currentDate"> </compose>
+</template>
